@@ -1,0 +1,228 @@
+
+/* ---------------
+----start--------
+---------------- */
+.start{
+    background-color: antiquewhite;
+}
+.g3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.menu a{
+    /* display: flex; */
+    align-items: space-between;
+    color: black;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.brand p{
+    display: flex;
+    justify-content: center;
+}
+.brand h1{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.brand input{
+    height: 50px;
+    width: 120px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+background-color: sandybrown;
+
+}
+.button-one{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    height: 400px;
+    width: 800px;
+    
+}
+/* ------------
+--2nd section--
+------------- */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.grid div img{
+    height: 200px;
+    width: 180px;
+}
+.grid div{
+    padding: 15px;
+    background-color: whitesmoke;
+    border: 10px solid white;
+    border-radius: 20px;
+
+}
+.second-section{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+.list{
+    margin-left: 50px;
+    margin-top:120px ;
+}
+   .list input{
+    height: 50px;
+    width: 120px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: salmon;
+   } 
+.quick{
+    font-style: italic;
+    font-size: 2em;
+    color: darkgray;
+}
+.future{
+    font-size: 1.5em;
+    color: coral;
+}
+/*-------------- .
+---third-section---
+----------------- */
+.third-section{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.third-section img{
+    height: 700px;
+    width: 500px;
+}
+.details article{
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 5px solid white;
+    border-radius: 20px;
+    
+    
+}
+.font-siz{
+    font-size: 3em;
+}
+.button-three{
+    /* position: absolute; */
+    position: relative;
+    bottom: 130px;
+    left: 30px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 95px;
+    margin-right: 300px;
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    
+    
+}
+.ten{
+    font-size: 2em;
+}
+.facts{
+    margin-left: 100px;
+    margin-right: 650px;
+}
+.facts h3{
+    font-size: 3em;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.icon{
+   display: grid;
+   grid-template-rows: repeat(1,1fr);
+   border: 1px solid rgb(222, 22, 22);
+   border-radius: 10px;
+   height: 150px;
+   width: 150px;
+   margin-left: 50px;
+   margin-right: 50px;
+   background-color: aliceblue;
+
+}
+.icon img{
+    height: 20px;
+    width: 20px;
+}
+.icon img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon h1{
+    display: flex;
+    justify-content: center;
+}
+.icon p{
+    display: flex;
+    justify-content: center;
+}
+.last-section{
+    margin-bottom: 50px;
+}
+.last-section h1{
+    display: flex;
+    justify-content: center;
+}
+.last-section p{
+    display: flex;
+    justify-content: center;
+}
+    .last-img-div{
+        margin-left: 120px;
+        margin-right: 120px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        padding: 10px; 
+}
+.end{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display:flex;
+    justify-content: center;
+    background-color: wheat;
+    border-radius: 10px;
+}
+/* -----------
+--media queries--
+-------------- */
+@media only screen and (max-width:688px) {
+    
+    
+}
