@@ -222,7 +222,7 @@ background-color: sandybrown;
 /* -----------
 --media queries--
 -------------- */
-@media only screen and (max-width:688px) {
+ @media only screen and (max-width:688px){
     
     .g3{
         display: block;
@@ -253,6 +253,4 @@ background-color: sandybrown;
     grid-template-columns: repeat(1,1fr);
     margin: 0;
 }
-
-
 }
