@@ -224,5 +224,35 @@ background-color: sandybrown;
 -------------- */
 @media only screen and (max-width:688px) {
     
-    
+    .g3{
+        display: block;
+    }
+    .banner{
+        justify-content: space-around;
+    }
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .second-section{
+        display: block;
+        margin-left: 0;
+    }
+    .third-section img{
+        height: 500px;
+        width: 300px;
+    }
+    .third-section{
+        display: block;
+        margin: 0;
+    }
+    .information{
+        display: block;
+        margin: 0;
+    }
+.last-img-div{
+    grid-template-columns: repeat(1,1fr);
+    margin: 0;
+}
+
+
 }
